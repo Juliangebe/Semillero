@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Google Translate" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-20T15:13:11" hostname="RC-PC" time="19.357">
+  <properties/>
+  <testcase name="Translate from English to Spanish" classname="Google Translate" time="19.357"/>
+  <system-out><![CDATA[    ?[32mGiven ?[0m?[32mthat susan wants yo translate a word?[0m                  ?[90m# GoogleTranslateStepDefinitions.thatSusanWantsYoTranslateAWord()?[0m
+    ?[32mWhen ?[0m?[32mshe translates the word cheese from English to Spanish?[0m ?[90m# GoogleTranslateStepDefinitions.sheTranslatesTheWordCheeseFromEnglishToSpanish()?[0m
+    ?[32mThen ?[0m?[32mshe should see the word queso in the screen?[0m            ?[90m# GoogleTranslateStepDefinitions.sheShouldSeeTheWordQuesoInTheScreen()?[0m
+]]></system-out>
+  <system-err><![CDATA[nov 20, 2018 10:13:12 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 12299
+Only local connections are allowed.
+nov 20, 2018 10:13:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Translate from English to Spanish
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

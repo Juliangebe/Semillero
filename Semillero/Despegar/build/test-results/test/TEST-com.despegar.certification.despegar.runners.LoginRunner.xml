@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.despegar.certification.despegar.runners.LoginRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="RC-PC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+1 Scenarios (?[33m1 pending?[0m)
+3 Steps (?[36m2 skipped?[0m, ?[33m1 pending?[0m)
+0m13,015s
+
+cucumber.api.PendingException: TODO: implement me
+	at com.despegar.certification.despegar.stepdefinitions.LoginStepDefinitions.thatJulianWantsIntoDespegarPage(LoginStepDefinitions.java:39)
+	at ?.that Julian wants into despegar page(src/test/resources/features/login.feature:9)
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: login despegar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: login with correct credentials
+-------------------------------------------------------------------(login-despegar;login-with-correct-credentials)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: login with correct credentials
+---------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

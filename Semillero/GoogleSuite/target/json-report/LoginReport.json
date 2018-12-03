@@ -1,0 +1,70 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168592395,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleTranslateStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Translate from English to Spanish",
+        "description": "",
+        "id": "google-translate;translate-from-english-to-spanish",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12336803056,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "that susan wants yo translate a word",
+            "match": {
+              "location": "GoogleTranslateStepDefinitions.thatSusanWantsYoTranslateAWord()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5296601955,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "she translates the word cheese from English to Spanish",
+            "match": {
+              "location": "GoogleTranslateStepDefinitions.sheTranslatesTheWordCheeseFromEnglishToSpanish()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306832903,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "she should see the word queso in the screen",
+            "match": {
+              "location": "GoogleTranslateStepDefinitions.sheShouldSeeTheWordQuesoInTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Translate",
+    "description": "\tAs a web user\n\tI wan to use Google Translate\n\tto translate words between different languages",
+    "id": "google-translate",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/google_translate.feature",
+    "tags": []
+  }
+]

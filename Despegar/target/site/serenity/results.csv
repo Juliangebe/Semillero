@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"completing the purchase","completing the purchase","PENDING","2018-12-02T21:56:50.466-05:00[America/Bogota]","0.0","103.52"
+"Choosing a flight","find the flight","SUCCESS","2018-12-02T21:58:41.982-05:00[America/Bogota]","0.0","34.78"
+"login despegar","login with correct credentials","PENDING","2018-12-02T21:59:16.976-05:00[America/Bogota]","0.0","13.01"
