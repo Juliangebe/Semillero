@@ -5,6 +5,6 @@ Proyectos realiazdos bajo el patron Screenplay + Serenity-BDD + Cucumber + Selen
 Para la generación del informe en el proyecto Despegar:
 1)Abrir MS-DOS en modo administrador
 2)Ubicarse en la raiz del proyecto
-3)Utilizar el comando gradle test clean
+3)Escribir el comando gradle test clean y presionar Enter
 4)El informe se genera en la ruta : target/site/serenity/index.html
 
